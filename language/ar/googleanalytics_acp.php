@@ -2,11 +2,11 @@
 /**
 *
 * Google Analytics extension for the phpBB Forum Software package.
-* Arabic translation by dzyasseron (http://tajribaty.com/phpbb) for phpbbarabia.com :)
 *
 * @copyright (c) 2014 phpBB Limited <https://www.phpbb.com>
 * @license GNU General Public License, version 2 (GPL-2.0)
 *
+* Translated By : Bassel Taha Alhitary - www.alhitary.net
 */
 
 /**
@@ -39,8 +39,8 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'ACP_GOOGLEANALYTICS'				=> 'Google Analytics',
-	'ACP_GOOGLEANALYTICS_ID'			=> 'Google Analytics ID',
-	'ACP_GOOGLEANALYTICS_ID_EXPLAIN'	=> 'أكتب كود Google Analytics ID الخاص بك، مثل: <br /><br /><samp>UA-0000000-00</samp>.إحصائيات قوقل يمكنها تتبع أعضاء منتداك المسجلين عبر الأجهزة والجلسات المتعددة، حتى يكون عدد الأعضاء أكثر دقة. لتفعيل هذه الوظيفة المحَسِّنة يجب أن يكون رقم تتبع المستخدم ID مضبوط في حسابك إحصائيات قوقل. <a href="https://support.google.com/analytics/answer/3123666">اضغط هنا للمعلومات أكثر</a>.',
-	'ACP_GOOGLEANALYTICS_ID_INVALID'	=> '“%s” كود Google Analytics ID الذي أدخلته غير صالح.<br />يجب أن يكون على الشكل “UA-0000000-00”.',
+	'ACP_GOOGLEANALYTICS'				=> 'تحليلات جوجل',
+	'ACP_GOOGLEANALYTICS_ID'			=> 'رمز التعريف ',
+	'ACP_GOOGLEANALYTICS_ID_EXPLAIN'	=> 'اكتب رمز التعريف ID لتحليلات جوجل Google Analytics. مثال : <samp>UA-0000000-00</samp>.<br /><br />برنامج تحليلات جوجل يستطيع مُتابعة المُستخدمين المُسجلين لديك عبر العديد من الأجهزة والجلسات لكي يحتوي تقاريرك على عدد صحيح للمُستخدمين. لتفعيل هذه الميزة المُتطورة , يجب الذهاب إلى حسابك في تحليلات جوجل وضبط الإعدادات الخاصة برمز التعريف. <a href="https://support.google.com/analytics/answer/3123666">انقر هنا لمزيد من المعلومات</a>.',
+	'ACP_GOOGLEANALYTICS_ID_INVALID'	=> 'رمز التعريف “%s” الذي أدخلته غير صحيح.<br />يجب أن يكون بهذا الشكل “UA-0000000-00”.',
 ));
